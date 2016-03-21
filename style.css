@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
 html, body {
     margin: 0 auto;
@@ -24,17 +25,6 @@ html, body {
     background-image: url(img/slider.png);
     position: relative;
 	top: -1px;
-}
-
-.our_service {
-    height: 308px;
-    width: 1280px;
-}
-
-.our_portfolio {
-    width: 1280px;
-    height: 518px;
-    background-color: #2E3E4F;
 }
 
 
@@ -201,5 +191,180 @@ html, body {
 
 }	
 
+.our_services {
+    height: 308px;
+    width: 1280px;
+}
 
+.services-list {
+	margin: 48px 122px 34px 122px;
+	width: 1040px;
+	height: 226px;
+	position: relative;
+	top: -36px;
 	
+}
+
+.our-services-button {
+    background-color:  #11a3d6;
+    width: 146px;
+	height: 36px;
+    border-radius: 5px;
+    position: relative;
+    top: -18px;
+	left: 567px;
+	display: inline-block;
+}
+
+.our-services-button > a{
+    text-decoration: none;
+    font-family: "Ubuntu Condensed";
+    color: #fff;
+    font-size: 18px; 
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 36px;
+}
+
+.services-item {
+	display: inline-block;
+	width: 156px;
+	padding-left: 49px;
+	padding-right: 49px;
+    
+}
+
+.item-content p {
+	font-family: Ubuntu;
+	color: #515862;
+	font-size: 11px; 
+	font-weight: 400;
+	line-height: 15px; 
+	text-align: center;
+	line-height: 15px; 
+	
+}
+.item-content p:first-child {
+	font-family: "Bree Serif";
+	color:  #515862;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 9px;
+	margin-top: 13px;
+}
+.item-content p>a {
+	font-family: Ubuntu;
+	color: #3e9dd1;
+	font-size: 11px; /
+	font-weight: 700;
+	line-height: 15px; 
+	text-align: center;
+	text-decoration: none;
+}
+
+.item-img img {
+	padding-left: 19px;
+}
+
+.services-item:hover {
+	outline: 1px solid #f98561;
+	border-radius: 5px;
+}
+
+.our_portfolio {
+    width: 1280px;
+    height: 518px;
+    background-color: #2E3E4F;
+	position: relative;
+}
+
+.our_portfolio .head {
+	position: absolute;
+	top: 55px;
+	left: 180px;
+	height: 42px;
+	width: 888px;
+}
+
+.our_portfolio .head p{
+	display: inline;
+	font-family: "Bree Serif";
+	color: #f98561;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0;
+}	
+
+.more-works {
+    background-color:  #11a3d6;
+    width: 90px;
+	height: 32px;
+    border-radius: 5px;
+    position: relative;
+ 	left: 520px;
+	display: inline-block;
+	top: -4px;
+}
+
+.more-works > a{
+    text-decoration: none;
+    font-family: "Ubuntu Condensed";
+    color: #fff;
+    font-size: 18px; 
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 30px;
+}
+
+.gallery {
+	position: absolute;
+	left: 180px;
+	top: 148px;
+	width: 914px;
+	height: 340px;	
+}
+
+.gallery-item, .gallery-item-c {
+	width: 282px;
+	display: inline-block;
+	height: 340px;
+}
+.gallery-content p {
+	font-family: Ubuntu;
+	color: #bcbcbc;
+	font-size: 11px; 
+	font-weight: 400;
+	line-height: 15px; 
+	text-align: left;
+	margin: 0;
+}
+.gallery-content {
+	height: 120px;
+}
+.gallery-content p:first-child {
+	font-family: "Bree Serif";
+	color: #f98561;
+	font-size: 17px; 
+	font-weight: 400;
+	text-align: left;
+	margin-top: 21px;
+	margin-bottom: 9px;
+}
+.gallery-item-img {
+	height: 220px;
+	line-height: 220px; 
+	display: inline-block;
+}
+.gallery-item-c {
+	position: relative;
+	top: -15px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
