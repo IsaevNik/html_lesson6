@@ -14,7 +14,8 @@ html, body {
 .header {
     width: 1280px;
     height: 90px;
-    color: #FFF;
+    background-color: #FFF;
+	position:relative;
 }
 
 .slider {
@@ -22,6 +23,7 @@ html, body {
     height: 491px;
     background-image: url(img/slider.png);
     position: relative;
+	top: -1px;
 }
 
 .our_service {
@@ -98,3 +100,106 @@ html, body {
     line-height: 51px;
 }
 
+.blog {
+	background-color: #f98561;
+	width: 80px;
+	height: 25px;
+	border-radius: 5px;
+	position: absolute;
+	left: 850px;
+	top: 34px;
+}
+
+.blog > a {
+	font-family: "Ubuntu";
+	text-decoration: none;
+    color: #ffffff;
+    font-size: 16px; 
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 23px;
+}
+
+.logo {
+	display: inline;
+	position: absolute;
+	left: 130px;
+	top: 32px;
+}
+
+
+.navigation {
+	position: absolute;
+	left: 350px;
+	height: 100%;
+}
+.navigation-item {
+	float: left;
+	list-style-type: none;
+	height: 100%;
+	width: 120px;
+}
+.navigation-bar {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.navigation-item a{
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Ubuntu, sans-serif;
+	display: block;
+	height: 100%;
+	line-height: 90px;
+	font-family: Ubuntu;
+	color: #515862;
+	font-weight: 800;
+	text-align: center;
+}
+.navigation-item:hover a{
+	font-family: Ubuntu;
+	color: #c5f4ff;
+	font-size: 20px; 
+	font-weight: 700;
+} 
+.navigation-item:hover{
+	background-color: #11a3d6;
+	background-image: url(img/menu_bottom.png);
+}
+
+.search-bar {
+	position: absolute;
+	left: 1000px;
+	width: 280px;
+	height: 90px;
+}
+
+.search-img {
+	display: inline-block;
+	height: 100%;
+	line-height: 90px;
+	
+}
+.search-img img {
+	width: 100px;
+	vertical-align: middle;	
+
+}
+
+.search-input {
+	line-height: 90px;
+	display: inline-block;
+}
+	
+.search-input input {
+	width: 100%;
+	position: relative;
+	top: 4px;
+
+}	
+
+
+	
