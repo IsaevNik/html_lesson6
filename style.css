@@ -305,7 +305,7 @@ html, body {
 	height: 32px;
     border-radius: 5px;
     position: relative;
- 	left: 520px;
+ 	left: 524px;
 	display: inline-block;
 	top: -4px;
 }
@@ -368,3 +368,120 @@ html, body {
 	margin-left: 30px;
 	margin-right: 30px;
 }
+
+
+.offer-title {
+	margin: 37px 0 26px 0;
+	text-align: center;
+	font-family: Oswald, sans-serif;
+	color: #2190c1;
+	font-size: 40px; 
+	font-weight: 400;
+}
+
+.offer-text1 {
+	font-family: Ubuntu, sans-serif;
+	color: #515862;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 287px 40px 287px;
+	
+}
+
+.offers_list {
+	width: 968px;
+	height: 142px;
+	margin: 0 120px 0 120px;
+	padding: 0 26px 0 26px;
+}
+.offer_item {
+	width: 187px;
+	height: 142px;
+	display: inline-block;
+	margin: 0 26px 0;
+}
+
+.offer_item p:first-child {
+	font-family: "Bree Serif", sans-serif;
+	color: #2b99cc;
+	font-size: 17px; 
+	font-weight: 400;
+	text-align: left;
+	margin: 0;
+}
+.offer_item .content {
+	font-family: Ubuntu, sans-serif;
+	color: #515862;
+	font-size: 11px; 
+	font-weight: 400;
+	line-height: 15px; 
+	text-align: left;
+	margin: 9px 0 11px 0;
+}
+
+.details {
+    background-color:  #2190c1;
+    width: 55px;
+	height: 24px;
+    border-radius: 5px;
+    position: relative;
+	display: inline-block;
+	margin-left: 132px;
+}
+
+.details > a{
+    text-decoration: none;
+    font-family: "Ubuntu Condensed";
+    color: #fff;
+    font-size: 14px; 
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 20px;
+}
+
+.w-line {
+	background-color: rgba(190, 190, 190, 0.5);
+	width: 1024px;
+	height: 1px;
+	margin: 30px 120px 31px 120px;
+}
+
+.testimonals {
+	text-align: center;
+	font-family: Oswald, sans-serif;
+	color: #2190c1;
+	font-size: 27px; 
+	font-weight: 400;
+	margin: 0;
+	line-height: 27px;
+}
+
+.offer-text2  {
+	font-family: Ubuntu, sans-serif;
+	color: #515862;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	margin: 35px 251px 59px 251px;
+	font-family: "Bree Serif", sans-serif;	
+	line-height: 26px;	
+}
+
+.autor {
+	
+	font-family: Ubuntu;
+	color: #f98561;
+	font-size: 14px; 
+	font-weight: 700;
+	line-height: 15px;
+	text-align: center;
+	margin: 0 0 29px 0;
+}
+.autor span{
+	font-weight: bold;
+}
+
