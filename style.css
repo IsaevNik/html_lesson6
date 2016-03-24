@@ -2,6 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@font-face {
+	font-family: 'Bebas Neue Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Bebas Neue Bold'), url('fonts/BEBASNEUE BOLD.woff') format('woff');
+}
 
 html, body {
     margin: 0 auto;
@@ -32,21 +38,16 @@ html, body {
 
 .our_offer {
     width: 1280px;
-    height: 657px;
+    height: 567px;
 }
 
-.footer {
-    background-color: #2e3e4f;
-    width: 1280px;
-    height: 337px;
-	margin: 0 auto;
-}
+
 
 .site_title {
     position: absolute;
     width: 100%;
-    top: 80px;
-    font-family: Oswald, sans-serif;
+    top: 100px;
+    font-family: "Bebas Neue Bold", sans-serif;
     color: #cccece;
     font-size: 60px; 
     font-weight: 400;
@@ -58,7 +59,7 @@ html, body {
 .text {
     position: absolute;
     width: 60%;
-    top: 160px;
+    top: 150px;
     font-family: Ubuntu;
     color: #cccece;
     font-size: 14px; 
@@ -178,20 +179,25 @@ html, body {
 }
 .search-img img {
 	width: 100px;
-	vertical-align: middle;	
+	vertical-align: middle;
+	display: inline-block;	
 
 }
 
 .search-input {
 	line-height: 90px;
 	display: inline-block;
+	width: 180px;
+	position: absolute;
+	left: 105px;
 }
 	
 .search-input input {
-	width: 100%;
+	width: 169px;
 	position: relative;
-	top: 4px;
-
+	border-radius: 5px;
+	box-shadow: none;
+	border: 4px solid #11a3d6; 
 }	
 
 .our_services {
@@ -378,7 +384,7 @@ html, body {
 .offer-title {
 	margin: 37px 0 26px 0;
 	text-align: center;
-	font-family: Oswald, sans-serif;
+	font-family: "Bebas Neue Bold", sans-serif;
 	color: #2190c1;
 	font-size: 40px; 
 	font-weight: 400;
@@ -459,7 +465,7 @@ html, body {
 
 .testimonals {
 	text-align: center;
-	font-family: Oswald, sans-serif;
+	font-family: "Bebas Neue Bold", sans-serif;
 	color: #2190c1;
 	font-size: 27px; 
 	font-weight: 400;
@@ -468,7 +474,6 @@ html, body {
 }
 
 .offer-text2  {
-	font-family: Ubuntu, sans-serif;
 	color: #515862;
 	font-size: 24px;
 	font-weight: 400;
@@ -492,7 +497,7 @@ html, body {
 	font-weight: bold;
 }
 
-.more-works:active, .details:active {
+.more-works:active, .details:active, .sign-up:active {
 	position: relative;
 	top: 1px;
 	box-shadow: 2px -2px #999;
@@ -501,4 +506,170 @@ html, body {
 .blog:active {
 	margin-top: 1px;
 	box-shadow: 2px -2px #999;
+}
+
+.footer {
+    background-color: #2e3e4f;
+    width: 1280px;
+    height: 294px;
+	margin: 0 auto;
+	padding-top: 43px;
+}
+
+.footer-info {
+	height: 261px;
+	width: 919px;
+	margin: 0 182px 33px 181px;
+	display:flex;
+	justify-content: space-between;
+}
+
+.footer-column-1 {
+	width: 225px;
+}
+
+.footer-column-2 {
+	width: 246px;
+}
+
+.footer-column-3 {
+	width: 221px;
+}
+
+.footer-column-4 {
+	width: 144px;
+}
+
+.footer-column-1 > p,.footer-column-2 > p, .footer-column-3 > p,.footer-column-4 > p {
+	font-family: "Bebas Neue Bold", sans-serif;
+	color: #f98561;
+	font-size: 30px; 
+	font-weight: 400;
+	line-height: 26px; 
+	text-align: left;
+	margin: 0 0 22px 0;	
+}
+.twet {
+	height: 54px;
+}
+
+.twet p, .twet a{
+	font-family: Ubuntu;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	text-align: left;
+}
+.twet p{
+	color:  #a3afb2;
+	margin: 0;
+}
+
+.twet a{
+	font-family: Ubuntu;
+	color:  #2190c1;
+	text-decoration: none;
+}
+
+.footer-line {
+	background-color: #a3afb2;
+	height: 1px;
+	width: 100%;
+	margin: 10px 0 10px;
+}
+
+.registr {
+	width: 100%;
+}
+
+.register > p {
+	font-family: Ubuntu;
+	color: #2190c1;
+	font-size: 13px; 
+	font-weight: 400;
+	line-height: 20px; 
+	text-align: left;
+}
+
+input[type="email"]{
+	width: 98%;
+	border-radius: 5px;
+	box-shadow: none;
+	
+}
+.sign-up {
+    background-color:  #2190c1;
+    width: 77px;
+	height: 28px;
+    border-radius: 5px;
+	display: inline-block;
+	margin: 16px 0 0 168px;
+}
+
+input[type="email"]:focus {
+	background-color: #f98561;
+}
+
+.sign-up > a{
+    text-decoration: none;
+    font-family: "Ubuntu Condensed";
+    color: #fff;
+    font-size: 16px; 
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 28px;
+}
+
+.twet-photo {
+	width: 56px;
+	height: 56px;
+	background-color: #fff;
+	display: inline-block;
+	float: left;
+}
+.footer-column-3 .twet {
+	margin-left: 60px;
+}
+
+.contact-item {
+	height: 37px;
+	margin-bottom: 20px;
+}
+.contact {
+	padding-top: 3px;
+}
+.contact p {
+	font-family: Ubuntu;
+	color: #a3afb2;
+	font-size: 13px; 
+	font-weight: 400;
+	line-height: 15px; 
+	text-align: left;
+	margin: 0 0 0 39px;
+}
+.contact-logo-1 {
+	content: url(img/telephone.png);
+	width: 34px;
+    height: 35px;
+	display: inline-block;
+	float: left;
+}
+.contact-logo-2 {
+	content: url(img/telephone2.png);
+	width: 34px;
+    height: 37px;
+	display: inline-block;
+	float: left;
+	margin-left: 3px;
+}
+.contact-logo-3 {
+	content: url(img/mail.png);
+	width: 34px;
+    height: 25px;
+	display: inline-block;
+	float: left;
+	margin-top: 3px;
 }
